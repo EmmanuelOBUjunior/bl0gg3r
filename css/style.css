@@ -152,6 +152,7 @@ button.btn{
 /* Title Section */
 main .site-title{
     background: url(../assets/Background-image.png);
+    background-size: cover;
     height: 110vh;
     display: flex;
     justify-content: center;
@@ -180,6 +181,27 @@ main .site-title .btn:hover{
 
 /* x Title Section x */
 
+main .blog{
+    background: url('../assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+main .blog .blog-post{
+    padding-top: 6rem;
+}
+
+main .blog .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10;
+    margin: 2rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+
+}
 /* x Main Section x */
 
 
