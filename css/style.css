@@ -54,6 +54,25 @@ ul{
     min-height: 10vh; 
 }
 
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
 .nav .nav-brand a{
     font-size: 1.6rem;
     padding: 1rem 0;
@@ -97,3 +116,15 @@ ul{
     color: #c2e9fb;
 }
 /*.....x............navbar...........x..........*/
+
+/*  Media Query */
+@media only screen  and (max-width:750px){
+    .nav-menu, .nav-items{
+        flex-direction: column;
+    }
+    .nav .toggle-collapse{
+        display: initial;
+    }
+}
+
+/*  x   Media Query     x   */
