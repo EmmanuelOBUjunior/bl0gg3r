@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     $nav = $('.nav');
     $toggleCollapse = $('.toggle-collapse');
 
@@ -6,6 +7,6 @@ $(document).ready(function(){
         $nav.toggleClass('collapse');
     })
 
-    $('owl-carousel').owlCarousel();
+    $('.owl-carousel').owlCarousel();
 
 });
