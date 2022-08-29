@@ -7,6 +7,6 @@ $(document).ready(function(){
         $nav.toggleClass('collapse');
     })
 
-    $('.owl-carousel').owlCarousel();
+    $('.blog-post').owlCarousel();
 
 });
